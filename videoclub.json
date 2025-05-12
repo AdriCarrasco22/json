@@ -1,0 +1,62 @@
+{
+    "facturas": [
+      {
+        "cliente": {
+          "idCliente": "C010",
+          "nombre": "Luis",
+          "apellido1": "Fernández",
+          "apellido2": "Ruiz",
+          "DNI": "11223344C",
+          "telefonos": ["689001122"]
+        },
+        "tipo": "alquiler",
+        "formaPago": "transferencia",
+        "importeTotal": 10.75,
+        "fechaDevolucion": "2025-05-20",
+        "peliculas": [
+          {
+            "idPelicula": "P120",
+            "titulo": "El Viaje Inesperado",
+            "genero": "Fantasía",
+            "duracion": 130,
+            "valoracion": 4.7,
+            "actores": [
+              {"nombre": "Andrés", "apellido": "García"},
+              {"nombre": "Patricia", "apellido": "Luna"}
+            ],
+            "caratula": "viaje_inesperado.jpg"
+          },
+          {
+            "idPelicula": "P121",
+            "titulo": "Código Letal",
+            "genero": "Thriller",
+            "duracion": 110,
+            "valoracion": 4.2,
+            "actores": [
+              {"nombre": "Miguel", "apellido": "Alonso"},
+              {"nombre": "Sara", "apellido": "Delgado"}
+            ]
+          }
+        ]
+      },
+      {
+        "cliente": {
+          "idCliente": "C011",
+          "nombre": "Ana",
+          "apellido1": "Martín",
+          "apellido2": "Vega",
+          "DNI": "99887766D",
+          "telefonos": ["633445566", "912223344"]
+        },
+        "tipo": "compra",
+        "formaPago": "tarjeta",
+        "importeTotal": 14.50,
+        "DVD": {
+          "titulo": "Secretos del Mar",
+          "fechaSalida": "2023-07-15",
+          "extras": false
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,34 @@
+{
+    "codigo": "c01",
+    "datos_propietario": {
+        "id": 1,
+        "nombre": "Andrés Gutierrez González",
+        "direccion": "Norte,8",
+        "poblacion": "Alcázar de San Juan"
+    },
+    "distribuidor_de": [
+        "Renault",
+        "Seat",
+        "Kia"
+    ],
+    "vehículos": [
+        {
+            "marca": "Seat",
+            "modelo": "Ibiza",
+            "combustible": "Gasolina",
+            "precio": 14000
+        },
+        {
+            "marca": "Renault",
+            "modelo": "Megane",
+            "combustible": "Gasolina",
+            "precio": 20000
+        },
+        {
+            "marca": "Kia",
+            "modelo": "Ceed",
+            "combustible": "Diesel",
+            "precio": 18000
+        }
+    ]
+}
