@@ -1,0 +1,34 @@
+{
+    "personas": [
+        {
+            "nombre":"Juan Pardo",
+            "nacimiento":{
+                "dia":"10",
+                "mes":"abril",
+                "anyo":"1982"
+            },
+            "direccion":{
+                "calle":"Caoba, 1",
+                "poblacion":"Madrid",
+                "provincia":"Madrid",
+                "cpostal":"28005"
+            },
+            "varon":true
+        },
+        {
+            "nombre":"Maria Antonia",
+            "nacimiento":{
+                "dia":"20",
+                "mes":"mayo",
+                "anyo":"1992"
+            },
+            "direccion":{
+                "calle":"Norte, 21",
+                "poblacion":"Madrid",
+                "provincia":"Madrid",
+                "cpostal":"28005"
+            },
+            "varon":false
+            }
+    ]
+}
